@@ -1,0 +1,37 @@
+header {
+    height: 84px;
+    display: flex;
+    div {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        nav {
+            max-width: 500px;
+            width: 100%;
+            display: inline-block;
+            ul {
+                display: flex;
+                max-width: 500px;
+                width: 100%;
+                justify-content: space-between;
+                li {
+                    a {
+                        color: #636060;
+                        font-size: 17px;
+                        font-family: Helvetica;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+        i {
+            display: none;
+        }
+    
+    }   
+}

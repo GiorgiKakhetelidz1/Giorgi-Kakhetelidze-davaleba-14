@@ -1,0 +1,73 @@
+.se-2 {
+    .container {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .text {
+            width: 235px;
+            height: 225px;
+            margin-right: 10px;
+            h5 {
+                color: #636060;
+                font-size: 17px;
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 9px;
+                        }
+            h2 {
+                color: #010101;
+                font-size: 28px;
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 45px;
+            }
+            p {
+                color: #636060;
+                font-size: 20px;
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        .bigbox {
+            width: 900px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .card {
+                width: 286px;
+                height: 320px;
+                display: inline-block;
+                img {
+                    width: 100%;
+                    margin-bottom: 23px;
+                }
+                h2 {
+                    color: #343232;
+                    font-size: 19px;
+                    font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-bottom: 9px;
+                }
+                p {
+                    color: #636060;
+                    font-size: 18px;
+                    font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    
+    }
+}
